@@ -9,3 +9,7 @@ function sub(x, y){
   if(isNaN(x)) throw new Error('Allow only number.');
   return x - y;
 }
+
+function mul(x, y){
+  return x * y;
+}
